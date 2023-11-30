@@ -1,0 +1,35 @@
+*
+{
+    margin : 0;
+    padding : 0;
+    box-sizing:boarder-box;
+}
+body
+{
+background-color:rgb(95, 189, 100);
+ position: absolute;
+ transform:translate(-50%,-50%);
+ left:50%;
+ top:50%;
+}
+
+ul{
+    margin-top: 50px;
+    font-size: 20px;
+   
+}
+@media only screen and (max-width:700px){
+body
+{
+    background-color:rgb(95, 189, 100);
+    position: absolute;
+    transform:translate(-50%,-50%);
+    left:50%;
+    top:50%;
+}
+ul{
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+}
